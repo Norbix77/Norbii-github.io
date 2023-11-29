@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Ankieta</title>
+        <style>
+            body{
+                text-align: center;
+                background-color:darkblue;
+            }
+            form{
+                text-align: center;
+                align-items: center;
+                color:azure;
+            }
+            h1{
+                color: azure;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Ankieta</h1><br>
+        <form>
+            <p>Imie</p>
+            <input type="text" name="imie">
+            <p>Nazwisko</p>
+            <input type="text" name="nazwisko">
+            <p>Data</p>
+            <input type="date" name="data">
+            <p>Trzeźwy? （￣Ω￣）</p>
+            <label class="inline" for="drunk_no">Nie (^ _-)</label>
+            <input type="radio" name="drunk" id="drunk_no" checked>
+            <label class="inline mg-left" for="drunk_yus">Tak Ψ(￣∀￣)Ψ</label>
+            <input type="radio" name="drunk" id="drunk_yus">
+            <p><input type="checkbox" name="wyslij" value="Wyślij" />
+        </form>
+    </body>
+</html>
